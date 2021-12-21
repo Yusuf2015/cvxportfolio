@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(
-    name='cvxportfolio',
+    name='Asset Allocation',
     version='0.0.12',
-    author='Enzo Busseti',
-    author_email='enzo.busseti@gmail.com',
+    author='Yusuf Ismaila',
+    author_email='iay2000@hw.ac.uk',
     packages=['cvxportfolio',
               'cvxportfolio.tests'],
     package_dir={'cvxportfolio': 'cvxportfolio'},
@@ -13,7 +13,7 @@ setup(
     url='http://github.com/cvxgrp/cvxportfolio/',
     license='Apache',
     zip_safe=False,
-    description='ConVeX Portfolio Optimization and Simulation toolset.',
+    description='Building Multiperiod Portfolio Optimization.',
     install_requires=["pandas",
                       "numpy",
                       "matplotlib",
